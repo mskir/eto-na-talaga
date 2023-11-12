@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.schedController">
+   <children>
+      <ImageView fitHeight="461.0" fitWidth="806.0" layoutX="-2.0" layoutY="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../Downloads/images/realSCHED.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="sched2home" layoutX="304.0" layoutY="11.0" mnemonicParsing="false" onAction="#sched2Home" prefHeight="25.0" prefWidth="31.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="sched2movies" layoutX="358.0" layoutY="11.0" mnemonicParsing="false" onAction="#sched2Movies" prefHeight="25.0" prefWidth="36.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="sched2login" layoutX="485.0" layoutY="12.0" mnemonicParsing="false" onAction="#sched2Login" prefHeight="17.0" prefWidth="47.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+   </children>
+</AnchorPane>
